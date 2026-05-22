@@ -5,8 +5,8 @@
   --background: #ffffff;   /* Stark Clean White */
   --surface: #fafafa;      /* Pure Matte Light White/Grey */
   --surface-dim: #f4f4f5;  /* Sleek Grey-White Sand */
-  --primary: #14422b;      /* Magnificent High-End Forest Green */
-  --primary-dim: #0b291a;  /* Deep Luxury Pine Green */
+  --primary: #09090b;      /* Sleek Matte Carbon Black */
+  --primary-dim: #27272a;  /* Deep Charcoal Grey */
   --on-background: #09090b; /* Space Matte Black */
   --on-surface: #71717a;   /* Slate Graphite Muted */
   --outline: #e4e4e7;      /* Precise Cool Steel Outline */
@@ -15,12 +15,12 @@
 .dark {
   --background: #09090b;   /* Carbon Jet Black */
   --surface: #121214;      /* Deep Matte Obsidian Charcoal */
-  --surface-dim: #181c18;  /* Sleek Forest Tinted Dark Sand */
-  --primary: #2d6a4f;      /* Magnificent High-End Forest Green */
-  --primary-dim: #1b4332;  /* Deep Luxury Pine Green */
+  --surface-dim: #18181b;  /* Dark Graphite Carbon */
+  --primary: #f4f4f5;      /* Stark Light Sand Dust */
+  --primary-dim: #d4d4d8;  /* Muted Light Charcoal */
   --on-background: #f4f4f5; /* Stark Light Sand Dust */
   --on-surface: #a1a1aa;   /* Cool Graphite Brushed Steel */
-  --outline: #222522;      /* Pine Dark Steel Seals */
+  --outline: #27272a;      /* Pine Dark Steel Seals */
 }
 
 @theme {
