@@ -24,10 +24,10 @@ export const featuredProducts: Product[] = [
         outerMaterial: '85% Technical Polyamide, 15% Polyurethane membrane',
         innerMaterial: '100% Compressed Micro-Thermid quilted lining',
         isNew: true,
-        image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/obsidian-parka.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop'
+            '/assets/obsidian-parka.jpeg',
+            '/assets/hero-editorial.jpeg'
         ]
     },
     {
@@ -39,10 +39,10 @@ export const featuredProducts: Product[] = [
         description: 'Features precision double-welt cargo geometries, articulated knee-dart tailoring for dynamic drape, and integrated technical strap systems to alter vertical garment compression.',
         outerMaterial: '100% Heavy Gabardine Weave Cotton',
         innerMaterial: 'Reinforced dual-stitching tape',
-        image: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/tactical-cargo.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1517423568366-8b83523034fd?q=80&w=800&auto=format&fit=crop'
+            '/assets/tactical-cargo.jpeg',
+            '/assets/gabardine-drawstring-pants.jpeg'
         ]
     },
     {
@@ -55,10 +55,10 @@ export const featuredProducts: Product[] = [
         outerMaterial: '70% Soft Merino Fleece Wool, 30% Fine Cashmere',
         innerMaterial: 'Organic self-lined ribbing',
         isSoldOut: true,
-        image: 'https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/heavyweight-pullover.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?q=80&w=800&auto=format&fit=crop'
+            '/assets/heavyweight-pullover.jpeg',
+            '/assets/ribbed-knit-texture.jpeg'
         ]
     },
     {
@@ -70,10 +70,10 @@ export const featuredProducts: Product[] = [
         description: 'An asymmetrical geometric equipment belt with custom laser-etched black hardware and double reinforced nylon tactical webbing designed to overlay heavy overcoats.',
         outerMaterial: '100% High-Density Tactical Nylon',
         innerMaterial: 'Full-grain Horween steer hide inserts',
-        image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/utility-harness.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=800&auto=format&fit=crop'
+            '/assets/utility-harness.jpeg',
+            '/assets/modular-chest-rig.jpeg'
         ]
     }
 ];
@@ -90,10 +90,10 @@ export const allArchiveProducts: Product[] = [
         outerMaterial: '100% Virgin Alpaca Wool, heavy-gauge face',
         innerMaterial: 'Delicate Cupro stretch liner',
         isNew: true,
-        image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/asymmetrical-wool-vest.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop'
+            '/assets/asymmetrical-wool-vest.jpeg',
+            '/assets/obsidian-parka.jpeg'
         ]
     },
     {
@@ -105,10 +105,10 @@ export const allArchiveProducts: Product[] = [
         description: 'Featuring an ultra-relaxed profile with an adjustable high-rise cotton drawstring. Masterfully pleated at our heritage partner atelier in Kojima, Japan.',
         outerMaterial: '100% Cotton Japan-weave Gabardine',
         innerMaterial: 'Cotton lined pocket bag details',
-        image: 'https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/gabardine-drawstring-pants.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=800&auto=format&fit=crop'
+            '/assets/gabardine-drawstring-pants.jpeg',
+            '/assets/tactical-cargo.jpeg'
         ]
     },
     {
@@ -121,10 +121,10 @@ export const allArchiveProducts: Product[] = [
         outerMaterial: '90% Compressed Virgin Wool, 10% Elastane braid',
         innerMaterial: 'Organic seamless edge stitch',
         isSoldOut: true,
-        image: 'https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/ribbed-knit-texture.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?q=80&w=800&auto=format&fit=crop'
+            '/assets/ribbed-knit-texture.jpeg',
+            '/assets/heavyweight-pullover.jpeg'
         ]
     },
     {
@@ -136,16 +136,16 @@ export const allArchiveProducts: Product[] = [
         description: 'Crafted from mil-spec nylon webbing and custom-molded matte steel. Built for modular chest accessory layouts with a completely sleek horizontal profile.',
         outerMaterial: 'Custom 1200D CORDURA weave',
         innerMaterial: 'Structured micro-alloy core',
-        image: 'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=800&auto=format&fit=crop',
+        image: '/assets/modular-chest-rig.jpeg',
         detailImages: [
-            'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=800&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop'
+            '/assets/modular-chest-rig.jpeg',
+            '/assets/utility-harness.jpeg'
         ]
     }
 ];
 
 export const detailImages = [
-    'https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?q=80&w=800&auto=format&fit=crop'
+    '/assets/obsidian-parka.jpeg',
+    '/assets/hero-editorial.jpeg',
+    '/assets/ribbed-knit-texture.jpeg'
 ];

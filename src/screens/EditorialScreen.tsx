@@ -39,13 +39,13 @@ export function EditorialScreen() {
             tag: "FW24 COLLECTION",
             title: "Obsidian Contrast Study",
             desc: "A exploration of absolute matte black wool juxtaposed against mirror-finish custom hardware.",
-            image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAAOPHqqqfgQcI20qKgTUkBCa3_EdJXnUXFDnimpk1GZWRxztEN9VRqe1vZZx-XeAzwGnZYSvB0ZL3xC7eAsfJTBj61ALZ7Zno4pjNUd5QPVnS8UjLyAR8uwcYAiyPS_nlMvvRhKxdO7jMzytEaJImuTYi-pDyNdrd9wgjkL5OZKbfZXZPZy8JYy3N2vnHfSiQmJTdNHzLvMEP5Y3plHMw1RNXBf6CHRF4FR7H-cxjiX6ZkB8lyf9ENk653ZTf7wNaH5Y6Md3lVTA"
+            image: "/assets/obsidian-parka.jpeg"
         },
         {
             tag: "MATERIAL FOCUS",
             title: "Italian Virgin Wool",
             desc: "Sourced from high-altitude farms, our heavy 620GSM virgin wool offers unmatched thermal properties and deep tonal depth.",
-            image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC8QVqlUvMN692J3rEzmpcxQGy5HGOFrw-TX6pMZT9eBjDTVTOD0VxFTbFzumuf2UZ6zyAWdrYe7GLhBZvtI3gJF998sAHaYn7aBKp8C6e-kFuiPGVC_vyPyYCL4n2zJdKF1jbvcGfIwc9BfuUWDeZ81DzSusO6bfLE3C_FXTcH-E4Sd2M0z2zsaWqwwTNaUqK5Zmu6-nfrK0E52Lb2QwRCsAMi3qcDSsZcijD8nKdjHJRa1IF56C_Y1eb9KuOs0GcHV9Ak-bKw1Q"
+            image: "/assets/heavyweight-pullover.jpeg"
         }
     ];
 

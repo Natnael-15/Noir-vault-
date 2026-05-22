@@ -1,6 +1,0 @@
-{
-  "name": "Noir Vault Atelier",
-  "description": "An avant-garde, high-contrast digital atelier displaying technical garment studies, tactile audio simulation triggers, and structural bento grids.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

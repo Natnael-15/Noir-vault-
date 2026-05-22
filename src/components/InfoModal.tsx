@@ -89,25 +89,25 @@ export function InfoModal({ isOpen, tab, onClose }: InfoModalProps) {
         {
             title: "Study 014: Monolithic Concrete Canopy",
             tags: ["#brutalism", "#geometry", "#void"],
-            image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
+            image: "/assets/hero-editorial.jpeg",
             location: "Basel, Switzerland"
         },
         {
             title: "Study 089: Matte Black Techwear Seams",
             tags: ["#construction", "#polyamide", "#fused"],
-            image: "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop",
+            image: "/assets/obsidian-parka.jpeg",
             location: "Kojima Atelier"
         },
         {
             title: "Study 112: Heavy Wool Drapery",
             tags: ["#merino", "#tonal", "#matte"],
-            image: "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?q=80&w=800&auto=format&fit=crop",
+            image: "/assets/heavyweight-pullover.jpeg",
             location: "Biella Mills"
         },
         {
             title: "Study 204: Architectural Silhouette Shadow",
             tags: ["#silhouette", "#contrast", "#lightwork"],
-            image: "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?q=80&w=800&auto=format&fit=crop",
+            image: "/assets/asymmetrical-wool-vest.jpeg",
             location: "Restricted Node"
         }
     ];

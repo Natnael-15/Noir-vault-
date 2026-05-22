@@ -136,8 +136,7 @@ export function SilhouetteStudy({ productName, productCategory }: SilhouetteStud
                         {pathD && (
                             <motion.path 
                                 d={pathD}
-                                fill="rgba(20, 66, 43, 0.04)"
-                                stroke="var(--color-primary)"
+                                className="fill-primary/10 dark:fill-primary/25 stroke-primary"
                                 strokeWidth="2.5"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"

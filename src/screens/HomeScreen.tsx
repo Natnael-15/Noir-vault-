@@ -25,10 +25,9 @@ export function HomeScreen({ onProductClick, onApplyClick, onLookbookClick, onSe
                 <div className="lg:col-span-8 bg-surface rounded-3xl border border-outline shadow-sm overflow-hidden relative flex flex-col justify-end p-8 md:p-12 group/hero">
                     <div className="absolute inset-0 z-0 overflow-hidden">
                         <img 
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgfpXgfPNklsYufIWxL3U_jyNn6fl8TFDHfNsLSh9YLj2RYLGjB71V6LjF4aLeKTP4OCTflcwu19lL_iyELpWqQZzSl7xwGdk0m_55i7FSsfH_I6AA9JghZscGK1pvgbER41t2a9Y_bD5B9chAgUT_-CIGK3QuQ_xDtU6hmq4iwNo2xDcAYDxA47emkZ-Dj2FgqJ5hQ-c9tjaoUDOO0UeM72GBZVgnRdnT5XY41hUwRY-PWnn00r-vyjzv__2aeebOCRyuTlFoMg" 
+                            src="/assets/hero-editorial.jpeg" 
                             className="w-full h-full object-cover object-[center_20%] opacity-80 transition-transform duration-1000 ease-out group-hover/hero:scale-102" 
                             alt="Striking cinematic fashion"
-                            referrerPolicy="no-referrer"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/85 to-transparent" />
                     </div>
