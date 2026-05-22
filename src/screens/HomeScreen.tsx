@@ -85,12 +85,12 @@ export function HomeScreen({ onProductClick, onApplyClick, onLookbookClick, onSe
                             <motion.div 
                                 animate={{ y: [0, -4, 0] }}
                                 transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-                                className="w-16 h-16 bg-white/20 rounded-2xl mb-4 mx-auto flex items-center justify-center text-2xl"
+                                className="w-16 h-16 bg-background/20 rounded-2xl mb-4 mx-auto flex items-center justify-center text-2xl"
                             >
-                                <Sparkles className="w-6 h-6 text-white animate-pulse" />
+                                <Sparkles className="w-6 h-6 text-background animate-pulse" />
                             </motion.div>
                             <h3 className="text-xl font-bold mb-2 font-display">Exclusive Access</h3>
-                            <p className="text-white/80 text-sm max-w-[200px] mx-auto">Join the inner circle for unlisted ledger pieces.</p>
+                            <p className="text-background/80 text-sm max-w-[200px] mx-auto">Join the inner circle for unlisted ledger pieces.</p>
                             <motion.button 
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
@@ -98,12 +98,12 @@ export function HomeScreen({ onProductClick, onApplyClick, onLookbookClick, onSe
                                     audioEngine.playHaptic();
                                     onApplyClick();
                                 }}
-                                className="mt-6 bg-white text-primary px-8 py-2.5 rounded-full font-bold text-sm shadow-md cursor-pointer hover:bg-neutral-100 transition-colors"
+                                className="mt-6 bg-background text-primary px-8 py-2.5 rounded-full font-bold text-sm shadow-md cursor-pointer hover:opacity-90 transition-all"
                             >
                                 Apply Now
                             </motion.button>
                         </div>
-                        <div className="absolute -right-8 -bottom-8 w-48 h-48 bg-white rounded-full opacity-10 blur-3xl"></div>
+                        <div className="absolute -right-8 -bottom-8 w-48 h-48 bg-background rounded-full opacity-10 blur-3xl"></div>
                     </motion.div>
                     
                     <motion.div 

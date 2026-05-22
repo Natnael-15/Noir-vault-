@@ -292,11 +292,11 @@ export function DropsLab() {
                                     initial={{ scale: 0.95, opacity: 0 }}
                                     animate={{ scale: 1, opacity: 1 }}
                                     exit={{ scale: 0.95, opacity: 0 }}
-                                    className="bg-green-600/10 text-green-700 border border-green-600/20 rounded-2xl p-4 text-center flex flex-col items-center gap-1.5"
+                                    className="bg-primary/5 text-on-background border border-outline rounded-2xl p-4 text-center flex flex-col items-center gap-1.5"
                                 >
-                                    <ShieldCheck className="w-6 h-6 text-green-600 animate-bounce" />
-                                    <span className="text-xs font-bold uppercase tracking-wider block text-green-700">Proposal Lodged Successfully</span>
-                                    <span className="text-[10px] text-green-700/80">Specifications calibrated and stored in master server ledger index databases.</span>
+                                    <ShieldCheck className="w-6 h-6 text-primary animate-bounce" />
+                                    <span className="text-xs font-bold uppercase tracking-wider block text-on-background">Proposal Lodged Successfully</span>
+                                    <span className="text-[10px] text-on-surface">Specifications calibrated and stored in master server ledger index databases.</span>
                                 </motion.div>
                             )}
                         </AnimatePresence>

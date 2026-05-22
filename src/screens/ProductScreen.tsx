@@ -118,7 +118,7 @@ export function ProductScreen({ productId, onAddToCart }: ProductScreenProps) {
                                 product.isSoldOut 
                                 ? 'bg-surface-dim border border-outline text-on-surface/50 cursor-not-allowed' 
                                 : isAdded
-                                ? 'bg-green-600 text-white flex items-center justify-center gap-2 scale-[0.98]'
+                                ? 'bg-surface border border-outline text-on-background flex items-center justify-center gap-2 scale-[0.98]'
                                 : 'bg-on-background text-background hover:opacity-90'
                             }`}
                         >

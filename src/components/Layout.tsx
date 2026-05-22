@@ -259,7 +259,7 @@ export function Footer({ onInfoClick }: FooterProps) {
                 </div>
                 
                 <p className="text-sm font-medium text-on-surface/60">
-                    © 2024 Noir Vault. All Rights Reserved.
+                    © 2026 Noir Vault. All Rights Reserved.
                 </p>
             </div>
         </footer>

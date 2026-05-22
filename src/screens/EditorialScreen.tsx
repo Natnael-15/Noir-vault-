@@ -16,7 +16,7 @@ export function EditorialScreen() {
             subtitle: "Uncompromising Sourcing",
             text: "We collaborate exclusively with heritage mills in Biella, Italy and Kojima, Japan. Every millimeter of virgin wool and custom-dyed cotton is certified for ethical chain of custody, ensuring our materials outlast generations.",
             size: "col-span-1 md:col-span-4 bg-primary text-background",
-            icon: <Sparkles className="w-6 h-6 text-white" />
+            icon: <Sparkles className="w-6 h-6 text-background" />
         },
         {
             title: "03 // RADICAL HONESTY",
@@ -36,7 +36,7 @@ export function EditorialScreen() {
 
     const lookbookHighlights = [
         {
-            tag: "FW24 COLLECTION",
+            tag: "FW26 COLLECTION",
             title: "Obsidian Contrast Study",
             desc: "A exploration of absolute matte black wool juxtaposed against mirror-finish custom hardware.",
             image: "/assets/obsidian-parka.jpeg"
@@ -83,18 +83,18 @@ export function EditorialScreen() {
                         className={`${story.size} border border-outline rounded-3xl p-8 flex flex-col justify-between shadow-sm min-h-[300px] transition-all duration-300`}
                     >
                         <div className="flex justify-between items-start mb-6">
-                            <span className={`text-xs font-bold tracking-widest ${story.size.includes('bg-primary') ? 'text-white/60' : 'text-on-surface'}`}>
+                            <span className={`text-xs font-bold tracking-widest ${story.size.includes('bg-primary') ? 'text-background/60' : 'text-on-surface'}`}>
                                 {story.title}
                             </span>
-                            <div className={`p-2 rounded-xl ${story.size.includes('bg-primary') ? 'bg-white/10' : 'bg-background'}`}>
+                            <div className={`p-2 rounded-xl ${story.size.includes('bg-primary') ? 'bg-background/10' : 'bg-background'}`}>
                                 {story.icon}
                             </div>
                         </div>
                         <div>
-                            <h3 className={`font-display font-bold text-2xl tracking-tight mb-2 ${story.size.includes('bg-primary') ? 'text-white' : 'text-on-background'}`}>
+                            <h3 className={`font-display font-bold text-2xl tracking-tight mb-2 ${story.size.includes('bg-primary') ? 'text-background' : 'text-on-background'}`}>
                                 {story.subtitle}
                             </h3>
-                            <p className={`text-sm leading-relaxed ${story.size.includes('bg-primary') ? 'text-white/80' : 'text-on-surface'}`}>
+                            <p className={`text-sm leading-relaxed ${story.size.includes('bg-primary') ? 'text-background/80' : 'text-on-surface'}`}>
                                 {story.text}
                             </p>
                         </div>

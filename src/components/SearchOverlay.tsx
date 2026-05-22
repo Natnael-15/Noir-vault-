@@ -20,7 +20,7 @@ export function SearchOverlay({ isOpen, onClose, onSelectProduct }: SearchOverla
         p.code.toLowerCase().includes(query.toLowerCase())
     );
 
-    const presetSearches = ['Outerwear', 'Bottoms', 'Accessories', 'Velour', 'Heavyweight', 'FW24'];
+    const presetSearches = ['Outerwear', 'Bottoms', 'Accessories', 'Velour', 'Heavyweight', 'FW26'];
 
     const handleSelect = (id: string) => {
         onSelectProduct(id);

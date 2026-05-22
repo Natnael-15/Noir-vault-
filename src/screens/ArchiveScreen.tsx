@@ -90,7 +90,7 @@ export function ArchiveScreen({ onProductClick }: { onProductClick: (id: string)
                                 <p className="text-lg font-bold text-on-background">{allArchiveProducts.length} Unique Pieces</p>
                             </div>
                         </div>
-                        <span className="text-xs font-bold font-mono text-primary bg-primary/10 px-3 py-1.5 rounded-full">FW24 ACTIVE</span>
+                        <span className="text-xs font-bold font-mono text-primary bg-primary/10 px-3 py-1.5 rounded-full">FW26 ACTIVE</span>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@ export function ArchiveScreen({ onProductClick }: { onProductClick: (id: string)
                             
                             <div className={`p-5 flex-grow flex flex-col justify-between ${p.isSoldOut ? 'opacity-60' : ''}`}>
                                 <div className="mb-4">
-                                    <span className="text-[10px] font-mono font-bold text-primary block mb-1 uppercase">NV-FW24-00{p.id}</span>
+                                    <span className="text-[10px] font-mono font-bold text-primary block mb-1 uppercase">NV-FW26-00{p.id}</span>
                                     <h3 className={`font-bold text-lg leading-tight mb-1 ${p.isSoldOut ? 'line-through text-on-surface' : 'text-on-background'}`}>{p.name}</h3>
                                     <p className="text-on-surface text-sm capitalize">{p.category}</p>
                                 </div>

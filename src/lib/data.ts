@@ -16,7 +16,7 @@ export interface Product {
 export const featuredProducts: Product[] = [
     {
         id: '1',
-        code: 'NV-FW24-001',
+        code: 'NV-FW26-001',
         name: 'Obsidian Parka',
         category: 'Outerwear',
         price: 1250,
@@ -32,7 +32,7 @@ export const featuredProducts: Product[] = [
     },
     {
         id: '2',
-        code: 'NV-FW24-002',
+        code: 'NV-FW26-002',
         name: 'Tactical Cargo',
         category: 'Bottoms',
         price: 850,
@@ -47,7 +47,7 @@ export const featuredProducts: Product[] = [
     },
     {
         id: '3',
-        code: 'NV-FW24-003',
+        code: 'NV-FW26-003',
         name: 'Heavyweight Pullover',
         category: 'Fleece',
         price: 450,
@@ -63,7 +63,7 @@ export const featuredProducts: Product[] = [
     },
     {
         id: '4',
-        code: 'NV-FW24-004',
+        code: 'NV-FW26-004',
         name: 'Utility Harness',
         category: 'Accessories',
         price: 320,
@@ -82,7 +82,7 @@ export const allArchiveProducts: Product[] = [
     ...featuredProducts,
     {
         id: '5',
-        code: 'NV-FW24-005',
+        code: 'NV-FW26-005',
         name: 'Asymmetrical Wool Vest',
         category: 'Outerwear',
         price: 780,
@@ -98,7 +98,7 @@ export const allArchiveProducts: Product[] = [
     },
     {
         id: '6',
-        code: 'NV-FW24-006',
+        code: 'NV-FW26-006',
         name: 'Gabardine Drawstring Pants',
         category: 'Bottoms',
         price: 640,
@@ -113,7 +113,7 @@ export const allArchiveProducts: Product[] = [
     },
     {
         id: '7',
-        code: 'NV-FW24-007',
+        code: 'NV-FW26-007',
         name: 'Ribbed Compressed Knit',
         category: 'Fleece',
         price: 520,
@@ -129,7 +129,7 @@ export const allArchiveProducts: Product[] = [
     },
     {
         id: '8',
-        code: 'NV-FW24-008',
+        code: 'NV-FW26-008',
         name: 'Modular Chest Ring Pack',
         category: 'Accessories',
         price: 290,

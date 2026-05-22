@@ -142,11 +142,11 @@ export function DropsScreen() {
                     className="lg:col-span-4 bg-primary text-background rounded-3xl p-8 flex flex-col justify-between shadow-lg relative overflow-hidden"
                 >
                     <div className="relative z-10">
-                        <div className="w-12 h-12 bg-white/20 rounded-xl mb-6 flex items-center justify-center">
-                            <Bell className="w-5 h-5 text-white" />
+                        <div className="w-12 h-12 bg-background/20 rounded-xl mb-6 flex items-center justify-center">
+                            <Bell className="w-5 h-5 text-background" />
                         </div>
                         <h3 className="text-2xl font-bold tracking-tight mb-2">Priority Ledger</h3>
-                        <p className="text-white/80 text-sm leading-relaxed mb-6">
+                        <p className="text-background/80 text-sm leading-relaxed mb-6">
                             Submit your verified email to receive encrypted notification protocols exactly 10 minutes prior to physical store release.
                         </p>
                     </div>
@@ -156,30 +156,30 @@ export function DropsScreen() {
                         {!subscribed ? (
                             <form onSubmit={submitPriorityAccess} className="flex flex-col gap-3">
                                 <div className="relative">
-                                    <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/60" />
+                                    <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-background/60" />
                                     <input 
                                         required
                                         type="email" 
                                         placeholder="Secure email link..."
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
-                                        className="w-full bg-white/10 hover:bg-white/15 focus:bg-white/20 transition-colors border border-white/20 rounded-full py-3.5 px-10 text-xs text-white placeholder:text-white/50 focus:outline-none focus:border-white font-medium"
+                                        className="w-full bg-background/10 hover:bg-background/15 focus:bg-background/20 transition-colors border border-background/20 rounded-full py-3.5 px-10 text-xs text-background placeholder:text-background/50 focus:outline-none focus:border-background font-medium"
                                     />
                                 </div>
-                                <button type="submit" className="w-full bg-white text-primary rounded-full py-3 text-xs font-bold hover:bg-white/90 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md">
+                                <button type="submit" className="w-full bg-background text-primary rounded-full py-3 text-xs font-bold hover:opacity-90 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md">
                                     Join Core Ledger
                                     <ArrowRight className="w-3.5 h-3.5" />
                                 </button>
                             </form>
                         ) : (
-                            <div className="bg-white/10 border border-white/20 rounded-2xl p-5 text-center flex flex-col items-center animate-in fade-in slide-in-from-bottom-2 duration-300">
-                                <ShieldCheck className="w-8 h-8 text-white mb-2" />
-                                <span className="text-xs font-bold uppercase tracking-wider block text-white">Registry Verified</span>
-                                <p className="text-xs text-white/80 mt-1">Core communication linked to: {email}</p>
+                            <div className="bg-background/10 border border-background/20 rounded-2xl p-5 text-center flex flex-col items-center animate-in fade-in slide-in-from-bottom-2 duration-300">
+                                <ShieldCheck className="w-8 h-8 text-background mb-2" />
+                                <span className="text-xs font-bold uppercase tracking-wider block text-background">Registry Verified</span>
+                                <p className="text-xs text-background/80 mt-1">Core communication linked to: {email}</p>
                             </div>
                         )}
                     </div>
-                    <div className="absolute -left-12 -bottom-12 w-48 h-48 bg-white/10 rounded-full opacity-20 blur-2xl"></div>
+                    <div className="absolute -left-12 -bottom-12 w-48 h-48 bg-background/10 rounded-full opacity-20 blur-2xl"></div>
                 </motion.div>
             </div>
 
