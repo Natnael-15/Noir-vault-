@@ -1,5 +1,8 @@
 # Noir Vault Atelier
 
+> [!IMPORTANT]
+> **DEMO SITE NOTICE:** This website is a conceptual brand demonstration showcase. It is not an active commercial storefront. No real purchases, transactions, or payment protocols are processed.
+
 An avant-garde, high-contrast digital storefront and editorial showcase for a high-end designer techwear clothing label. Displays technical garment studies, detailed materials, structural layouts, and interactive components.
 
 ## Features
