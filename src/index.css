@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;   /* Stark Clean White */
+  --surface: #fafafa;      /* Pure Matte Light White/Grey */
+  --surface-dim: #f4f4f5;  /* Sleek Grey-White Sand */
+  --primary: #14422b;      /* Magnificent High-End Forest Green */
+  --primary-dim: #0b291a;  /* Deep Luxury Pine Green */
+  --on-background: #09090b; /* Space Matte Black */
+  --on-surface: #71717a;   /* Slate Graphite Muted */
+  --outline: #e4e4e7;      /* Precise Cool Steel Outline */
+}
+
+.dark {
+  --background: #09090b;   /* Carbon Jet Black */
+  --surface: #121214;      /* Deep Matte Obsidian Charcoal */
+  --surface-dim: #181c18;  /* Sleek Forest Tinted Dark Sand */
+  --primary: #2d6a4f;      /* Magnificent High-End Forest Green */
+  --primary-dim: #1b4332;  /* Deep Luxury Pine Green */
+  --on-background: #f4f4f5; /* Stark Light Sand Dust */
+  --on-surface: #a1a1aa;   /* Cool Graphite Brushed Steel */
+  --outline: #222522;      /* Pine Dark Steel Seals */
+}
+
+@theme {
+  --font-display: "Inter", ui-sans-serif, system-ui;
+  --font-body: "Inter", ui-sans-serif, system-ui;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+
+  /* Dynamically link custom variables for light and dark modes */
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-dim: var(--surface-dim);
+  --color-primary: var(--primary);
+  --color-primary-dim: var(--primary-dim);
+  --color-on-background: var(--on-background);
+  --color-on-surface: var(--on-surface);
+  --color-outline: var(--outline);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-body);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
